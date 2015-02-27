@@ -34,6 +34,9 @@ public final class TwitterUtil {
     private static final String USER_TIMELINE = "/1.1/statuses/user_timeline.json";
     private static final SimpleDateFormat FORMAT = new SimpleDateFormat("EEE MMM dd HH:mm:ss ZZZZZ yyyy");
 
+    private TwitterUtil() {
+    }
+
     /**
      * Makes request to retrieve 'bearer token' using API credentials.
      *
